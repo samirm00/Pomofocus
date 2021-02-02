@@ -15,30 +15,7 @@ import { List } from '../classes/list.js';
 export const createListHandler = (event) => {
   
 
-  if(event.keyCode !== 13){
-    return;
-  }
 
-  if (event.target.value ===  ''){
-    alert(' Please type a class name and press enter');
-    return;
-  }
-
-  const newClass = new List({header: event.target.value , todos: []}) ;
-
-  const renderNewClass = newClass.render();
-
-  document.getElementById('lists').appendChild(renderNewClass);
-  event.target.value = '';
-
-  logger.push({
-    action: 'add a new class',
-    event,
-    newClass,
-    renderNewClass,
-
-  });
-  
 
 };
 
