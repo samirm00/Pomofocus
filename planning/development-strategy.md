@@ -176,7 +176,7 @@ __As a user I want to change the `mode`__
   - push `data` to `logger` function.
 
 ### Task B
-`listenerThree.js`:
+`listenerTwo.js`:
 - import `handleMode` form `handlers/mainThree.js`.
 - select `js-mode-buttons` and add event listener.
 
@@ -185,7 +185,7 @@ __As a user I want to change the `mode`__
 __As a user I want to see the `notification`__
 
 **When I accept the notification I see:**
-- the notifcation with message disply .
+- the notifications with message display .
 
 ### REPO
 
@@ -200,7 +200,7 @@ __As a user I want to see the `notification`__
 - call `switchMode` method.
 
 ### Task B
-`listenerTwo.js`:
+`listenerThree.js`:
 - import `notification` form `handlers/mainTwo.js`.
 - select `document` and add event listener.
 
