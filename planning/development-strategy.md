@@ -15,13 +15,13 @@ Data (timer) is an object with different properties.
 
 ## User Story Dependencies
 
-![Story Dependency Diagram]()
+![Story Dependency Diagram](../public/assets/stroiesDependency.png)
 
 ---
 
 ## WIREFRAME
 
-![wireframe]()
+![wireframe](../public/assets/WireFrame.png)
 ---
 
 ## 0.Setup
