@@ -80,18 +80,6 @@ __As a user I want to use `pomodoro` for my `todos`when I load the site__
 - `clock-class`: marign , font-size , display flex .
 - `mode-button class`: font-size , height , cursor, box-shadow , padding, background.
 - `main-button .active`:transform .
-- `hidden`: display = none . 
-- `todos` : add fix position , top , left and center. 
-- `form input ` : color, background color , cursor and transition.
-- `form button:hover` add background and color.
-- `todo-ul`:  display flex , list-style none.
-
-
-- `todo`: margin , background-color , color, font-size , display flex, transition.
-- `complete-btn`: background-color , color, padding, border , cursor and font-size.
-- `delete-btn`: background-color , color, padding, border , cursor and font-size.
-- `completed class` : text-decoration and opacity.
-- `fall class`: transform and opacity.
 
 
 ## 2. class 
@@ -165,6 +153,7 @@ __As a user I want to choses `pomodoro`mode__
 `listenerOne.js`:
 - import `handleMain` form `handlers/mainOne.js`.
 - select `js-button` and add event listener.
+
 
 ## 4. change the mode
 __As a user I want to change the `mode`__
@@ -242,6 +231,19 @@ __As a user I want to add todos`__
 `listenerFour.js`:
 - import `addTodo` form `handlers/mainFour.js`.
 - select `todo-button` and add event listener.
+
+### Task C 
+`style.css`:
+- `todo`: margin , background-color , color, font-size , display flex, transition.
+- `complete-btn`: background-color , color, padding, border , cursor and font-size.
+- `delete-btn`: background-color , color, padding, border , cursor and font-size.
+- `completed class` : text-decoration and opacity.
+- `fall class`: transform and opacity.
+- `hidden`: display = none . 
+- `todos` : add fix position , top , left and center. 
+- `form input ` : color, background color , cursor and transition.
+- `form button:hover` add background and color.
+- `todo-ul`:  display flex , list-style none.
 
 ## 7. check or delete todos
 __As a user I want to check todos and remove todos`__
