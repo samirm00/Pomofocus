@@ -1,6 +1,6 @@
 'use strict';
 
-import '../listeners/listEnter.js'
+
 
 // import all listener files so they can attach to the DOM
 

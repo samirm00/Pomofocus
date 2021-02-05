@@ -6,15 +6,15 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 > these are necessary for basic usability
 
-- [ ] A user can create a new empty list with any title
+- [x] A user can use `pomodoro`
   - _acceptance criteria ..._
-- [ ] A user can remove any list from the manager
+- [x] A user can use `short break`
   - _acceptance criteria ..._
-- [ ] A user can add items to each list instance
+- [x] A user can use `long break `
   - _acceptance criteria ..._
-- [ ] A user can remove items from each list instance
+- [x] A user can add todo
   - _acceptance criteria ..._
-- [ ] A user can update items in each list instance
+- [x] A user can check todo and remove it.
   - _acceptance criteria ..._
 
 ## Should-Haves
