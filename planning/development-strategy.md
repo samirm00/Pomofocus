@@ -213,7 +213,7 @@ __As a user I want to add todos`__
 
 ### REPO
 
-- This user story is developed on branch `6-addTodos`.
+- This user story is developed on branch `6-todos`.
 - This branch is merged to `master` branch after completion.
 ### Task A
 `mainForth.js`:
