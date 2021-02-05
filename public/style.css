@@ -9,9 +9,9 @@ html {
   }
   
   :root {
-    --pomodoro: hsl(223, 25%, 40%);
-    --shortBreak: hsl(48, 23%, 40%);
-    --longBreak: hsl(105, 16%, 40%);
+    --pomodoro: hsl(2, 66.4%, 58%);
+    --shortBreak: hsl(182, 34.9%, 40.2%);
+    --longBreak: hsl(205, 43%, 46.1%);
   }
   
   body {
@@ -114,7 +114,7 @@ html {
  .todos{
   position: fixed;
   top:60% ;
-  left :38%;
+  left :37%;
   text-align: center;
 }
 
@@ -132,14 +132,14 @@ form button {
   transition: all 0.3s ease;
 }
 form button:hover{
-  background-color: rgb(185, 169, 46);
+  background-color: rgb(117, 114, 89);
   color:rgb(77, 76, 72);
 }
 
 .todo-container{
  position: fixed;
- top:70% ;
- left: 47% ;
+ top: 70% ;
+ left: 44% ;
 }
 
 .todo-container ul{
