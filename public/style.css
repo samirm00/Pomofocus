@@ -106,10 +106,11 @@ html {
   
  /* todos */
 
- h3{
-   font-size: 25px;
-   margin-bottom: ;
- }
+.todos h3{  
+    font-size: 25px;
+    margin-bottom: ;
+ 
+}
 
  .todos{
   position: fixed;

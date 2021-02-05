@@ -1,8 +1,6 @@
 # Pomofocus
 
-
-> 
-
+> a simple website allows the user to add , check and remove todos and check three different modes(timers) for work `25 mins` , short break `5 mins` and long break `15 mins`
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,8 +13,10 @@
 
 ## General info
 
+the Website is reverse engineering of `Pomodoro`, the objective is use `classes` , `setTimeOut` and `setInterval` methods in `Javascript`
+
 ## Screenshots
-![Example screenshot](public/assests/screenShot.png)
+![Example screenshot](public/assets/screenShot.png)
 
 ## Technologies
 * JavaScript
@@ -31,7 +31,30 @@ open the website and create as many `classes as you want`
 ## Code Examples
 
 ```js
+'use strict';
 
+import { logger } from '../../lib/logger.js';
+
+import { Timer } from '../classes/list.js';
+
+
+export const instance = new Timer();  
+
+export function handleMain(){
+  const buttonSound = new Audio('../../public/assets/click.mp3');
+  buttonSound.play();
+  const { action } = document.getElementById('js-btn').dataset;
+  if (action === 'start') {
+    instance.startTimer();
+  } else {
+    instance.stopTimer();
+  }
+
+  logger.push({
+    userAction: 'action', 
+    action,  
+  });
+}
   
 
 ```
