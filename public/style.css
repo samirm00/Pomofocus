@@ -30,11 +30,11 @@ html {
   }
   
   progress::-webkit-progress-bar {
-   background-color: rgba(0, 0, 0, 0.1);;
+   background-color: rgba(197, 190, 190, 0.1);;
   }
   
   progress::-webkit-progress-value {
-    background-color: rgb(201, 64, 30);
+    background-color: rgb(239, 239, 247);
   }
   
   .timer {
