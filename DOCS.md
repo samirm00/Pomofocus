@@ -6,13 +6,18 @@
 
 <!-- BEGIN TOC -->
 
-- [app](#app)
-  - [todos.js](#srcapptodosjs)
+- [classes](#classes)
+  - [list.js](#srcclasseslistjs)
 - [handlers](#handlers)
-  - [add-todo.js](#srchandlersadd-todojs)
+  - [mainOne.js](#srchandlersmainOnejs)
+  - [mainSecond.js](#srchandlersmainSecondjs)
+  - [mainThird.js](#srchandlersmainThirdjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
+  - [listenerOne.js](#srclistenerslistenerOnejs)
+  - [listenerThree.js](#srclistenerslistenerThreejs)
+  - [listenerTwo.js](#srclistenerslistenerTwojs)
 - [data.js](#srcdatajs)
 
 <!-- END TOC -->
@@ -21,11 +26,11 @@
 
 ---
 
-# app
+# classes
 
 ---
 
-### [./src/app/todos.js](./src/app/todos.js?study)
+### [./src/classes/list.js](./src/classes/list.js?study)
 
 [TOP](#DOCS)
 
@@ -45,7 +50,15 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src/handlers/add-todo.js](./src/handlers/add-todo.js?study)
+### [./src/handlers/mainOne.js](./src/handlers/mainOne.js?study)
+
+---
+
+### [./src/handlers/mainSecond.js](./src/handlers/mainSecond.js?study)
+
+---
+
+### [./src/handlers/mainThird.js](./src/handlers/mainThird.js?study)
 
 [TOP](#DOCS)
 
@@ -70,6 +83,18 @@ Handler function define user interactions. They will:
 Event listeners are used to connect handler functions to user interactions with the DOM.
 
 You can use the same handler in many different listeners, or add more than one listeners to the same DOM element.
+
+---
+
+### [./src/listeners/listenerOne.js](./src/listeners/listenerOne.js?study)
+
+---
+
+### [./src/listeners/listenerThree.js](./src/listeners/listenerThree.js?study)
+
+---
+
+### [./src/listeners/listenerTwo.js](./src/listeners/listenerTwo.js?study)
 
 [TOP](#DOCS)
 
