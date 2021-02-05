@@ -11,9 +11,9 @@ export function deleteCheck(event){
   if(item.classList[0] === 'delete-btn'){
      const todo =item.parentElement; 
      todo.classList.add('fall');
-     todo.addEventListener('transitioned', () =>{
-         todo.remove();
-     });
+     todo.addEventListener('click', setTimeout(() => {
+      todo.remove();
+    },2000));
       
   }
 
