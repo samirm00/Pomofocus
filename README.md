@@ -13,7 +13,7 @@
 
 ## General info
 
-the website is reverse engineering of `Pomodoro`, the objective is use `classes` , `setTimeOut` and `setInterval` methods in `Javascript`
+the website is reverse engineering of `Pomodoro`, the objective is using `classes` , `setTimeOut` and `setInterval` methods in `Javascript`
 
 ## Screenshots
 ![Example screenshot](public/assets/screenShot.png)
