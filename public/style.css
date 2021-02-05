@@ -104,3 +104,87 @@ html {
     display: none;
   }
   
+ /* todos */
+
+ .todos{
+  position: fixed;
+  top:60% ;
+  left :40%;
+  text-align: center;
+}
+
+form input, form button{
+  padding: 0.5rem;
+  font-size:2rem ;
+  border: none;
+  background-color: white;
+}
+form button {
+  color:rgb(95, 83, 55);
+  background-color: rgb(167, 161, 122);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover{
+  background-color: rgb(185, 169, 46);
+  color:rgb(77, 76, 72);
+}
+
+.todo-container{
+ position: fixed;
+ top:72% ;
+ left: 47% ;
+}
+
+.todo-container ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+/* js classes */
+
+.todo{
+  margin: 0.5rem ;
+  background-color: rgb(206, 180, 161);    
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250%;
+  transition: all 1s ease;
+}
+
+.todo li{
+  flex : 1;
+}
+
+.complete-btn , .delete-btn{
+  background-color: rgb(201, 64, 30);
+  color:white ;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem; 
+}
+.complete-btn {
+background-color: rgb(42, 187, 42);
+}
+
+.fa-check-circle ,.fa-trash-alt{
+pointer-events: none;
+}
+
+
+.completed{
+text-decoration: line-through;
+opacity:0.5;
+}
+
+.fall{
+transform: translateY(8rem) rotateZ(25deg);
+opacity: 0;
+}

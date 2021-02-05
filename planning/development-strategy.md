@@ -232,18 +232,7 @@ __As a user I want to add todos`__
 - import `addTodo` form `handlers/mainFour.js`.
 - select `todo-button` and add event listener.
 
-### Task C 
-`style.css`:
-- `todo`: margin , background-color , color, font-size , display flex, transition.
-- `complete-btn`: background-color , color, padding, border , cursor and font-size.
-- `delete-btn`: background-color , color, padding, border , cursor and font-size.
-- `completed class` : text-decoration and opacity.
-- `fall class`: transform and opacity.
-- `hidden`: display = none . 
-- `todos` : add fix position , top , left and center. 
-- `form input ` : color, background color , cursor and transition.
-- `form button:hover` add background and color.
-- `todo-ul`:  display flex , list-style none.
+
 
 ## 7. check or delete todos
 __As a user I want to check todos and remove todos`__
@@ -267,6 +256,19 @@ __As a user I want to check todos and remove todos`__
 `listenerFive.js`:
 - import `deleteCheck` form `handlers/mainFive.js`.
 - select `todo-list` and add event listener.
+
+### Task C 
+`style.css`:
+- `todo`: margin , background-color , color, font-size , display flex, transition.
+- `complete-btn`: background-color , color, padding, border , cursor and font-size.
+- `delete-btn`: background-color , color, padding, border , cursor and font-size.
+- `completed class` : text-decoration and opacity.
+- `fall class`: transform and opacity.
+- `hidden`: display = none . 
+- `todos` : add fix position , top , left and center. 
+- `form input ` : color, background color , cursor and transition.
+- `form button:hover` add background and color.
+- `todo-ul`:  display flex , list-style none.
 
 
 ## 8.init
