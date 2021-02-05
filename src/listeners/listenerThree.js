@@ -1,7 +1,6 @@
 'use strict'
 
 
+import {notification} from '../handlers/mainThird.js';
 
-import {handleMode} from '../handlers/mainThird.js';
-
-document.querySelector('#js-mode-buttons').addEventListener('click', handleMode);
+document.addEventListener('DOMContentLoaded', notification);
